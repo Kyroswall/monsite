@@ -707,7 +707,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 
 .work .view, .product .view {
   width: 100%;
-  height: 400px;
+  height: 100%; /* Prend toute la hauteur de l'élément parent */
   display: table;
   opacity: 0; /* Invisible par défaut */
   padding: 0;
@@ -715,10 +715,10 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   text-decoration: none;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s ease; /* Ajoute une transition pour un effet fluide */
 }
 
 .work .view span, .work .view i, .product .view span, .product .view i {
-  height: 400px;
   display: table-cell;
   vertical-align: middle;
   font-size: 12px;
@@ -727,19 +727,10 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   letter-spacing: 4px;
 }
 
-.work h3, .product h3 {
-  margin-top: 30px;
+.work:hover .view, .product:hover .view {
+  opacity: 1; /* L'overlay devient visible au survol */
 }
 
-.work h3 a, .product h3 a {
-  color: #000;
-}
-
-/* Lorsque l'image est survolée ou mise au focus */
-.work:hover .view, .work:focus .view, .product:hover .view, .product:focus .view {
-  opacity: 1; /* L'overlay devient visible */
-  transition: opacity 0.3s ease; /* Ajoute une transition pour un effet fluide */
-}
 
 
 
