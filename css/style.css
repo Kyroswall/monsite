@@ -690,7 +690,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
     font-size: 30px;
   }
 }
-
 .work, .product {
   background-size: cover;
   background-position: center center;
@@ -704,7 +703,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   width: 100%;
   height: 400px;
   display: table;
-  opacity: 1; /* Toujours visible */
+  opacity: 0; /* Invisible par défaut */
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -730,16 +729,12 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   color: #000;
 }
 
-/* Supprimer cette règle car elle n'est plus nécessaire */
-@media screen and (max-width: 768px) {
-  .work .view, .product .view {
-    opacity: 1; /* Supprimé car déjà défini pour tous les écrans */
-  }
+/* Lorsque l'image est survolée ou mise au focus */
+.work:hover .view, .work:focus .view, .product:hover .view, .product:focus .view {
+  opacity: 1; /* L'overlay devient visible */
+  transition: opacity 0.3s ease; /* Ajoute une transition pour un effet fluide */
 }
 
-.work:hover .view, .work:focus .view, .product:hover .view, .product:focus .view {
-  opacity: 1; /* Peut être conservé pour assurer l'affichage au survol */
-}
 
 .product {
   margin-bottom: 0;
