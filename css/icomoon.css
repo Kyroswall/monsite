@@ -24,6 +24,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-tiktok:before {
+  content: "\e900";
+}
+
 .icon-mobile:before {
     content: "\e000";
 }
