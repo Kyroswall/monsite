@@ -691,11 +691,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   }
 }
 
-
-
-
-
-
 .work, .product {
   background-size: cover;
   background-position: center center;
@@ -738,13 +733,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 .work:hover .view, .work:focus .view, .product:hover .view, .product:focus .view {
   opacity: 1;
 }
-
-
-
-
-
-
-
 
 .product {
   margin-bottom: 0;
