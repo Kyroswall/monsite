@@ -699,22 +699,19 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   height: 400px;
   margin-bottom: 30px;
 }
+
 .work .view, .product .view {
   width: 100%;
   height: 400px;
   display: table;
-  opacity: 0;
+  opacity: 1; /* Toujours visible */
   padding: 0;
   margin: 0;
   text-decoration: none;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
 }
-@media screen and (max-width: 768px) {
-  .work .view, .product .view {
-    opacity: 1;
-  }
-}
+
 .work .view span, .work .view i, .product .view span, .product .view i {
   height: 400px;
   display: table-cell;
@@ -724,14 +721,24 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+
 .work h3, .product h3 {
   margin-top: 30px;
 }
+
 .work h3 a, .product h3 a {
   color: #000;
 }
+
+/* Supprimer cette règle car elle n'est plus nécessaire */
+@media screen and (max-width: 768px) {
+  .work .view, .product .view {
+    opacity: 1; /* Supprimé car déjà défini pour tous les écrans */
+  }
+}
+
 .work:hover .view, .work:focus .view, .product:hover .view, .product:focus .view {
-  opacity: 1;
+  opacity: 1; /* Peut être conservé pour assurer l'affichage au survol */
 }
 
 .product {
