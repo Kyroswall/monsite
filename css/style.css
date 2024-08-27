@@ -42,7 +42,7 @@ body.menu-show {
 /* Links */
 a {
   color: #FF847C;
-  transition: 0.5s;
+  transition: color 0.5s;
 }
 
 a:hover {
@@ -74,16 +74,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Selection Styles */
-::-webkit-selection {
-  color: #fcfcfc;
-  background: #b7c2c2;
-}
-
-::-moz-selection {
-  color: #fcfcfc;
-  background: #b7c2c2;
-}
-
 ::selection {
   color: #fcfcfc;
   background: #b7c2c2;
@@ -92,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Page Transitions */
 #fh5co-page {
   position: relative;
-  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), background 0.8s;
   transform: scale(1);
   background: #fff;
 }
@@ -113,9 +103,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   visibility: hidden;
   opacity: 0;
-  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), transform 0.8s;
   transform: scale(0);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #fh5co-main-nav .fh5co-nav-toggle {
@@ -127,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 50px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  transition: 0.3s;
+  transition: background 0.3s;
   visibility: hidden;
   opacity: 0;
 }
@@ -142,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
   height: 2px;
   background: #000;
-  transition: 0.2s;
+  transition: background 0.2s;
 }
 
 #fh5co-main-nav .fh5co-nav-toggle.show {
@@ -206,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Karla", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  transition: 0.5s;
+  transition: color 0.5s, box-shadow 0.5s;
 }
 
 .btn.btn-md {
@@ -251,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* Other Button Variants */
+/* Success Buttons */
 .btn-success {
   background: #5cb85c;
   color: #fff;
