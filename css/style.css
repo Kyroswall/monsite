@@ -711,21 +711,11 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   background: rgba(0, 0, 0, 0.5);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 768px) {
+  .work .view, .product .view {
+    opacity: 1;
+  }
+}
 
 .work .view span, .work .view i, .product .view span, .product .view i {
   height: 400px;
