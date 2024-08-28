@@ -730,13 +730,120 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 
 
 
+
+
+/* Assurez-vous que .view est initialement transparent */
 .work .view {
   opacity: 0;
+  transition: opacity 0.3s ease; /* Ajoute une transition douce pour l'opacité */
 }
 
+/* Changement d'opacité lors du survol */
 .work:hover .view, .work:focus .view {
   opacity: 1;
 }
+
+/* Optionnel : Assurez-vous que .view prend bien la hauteur définie */
+.work {
+  position: relative;
+  height: 400px; /* Assure que les éléments .work ont la même hauteur */
+}
+
+.work .view {
+  position: absolute; /* Positionne .view au-dessus de .work */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Assure que .view occupe toute la hauteur de .work */
+  display: table;
+  background: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente pour la vue */
+  color: #fff;
+  text-decoration: none;
+  text-align: center; /* Centre le texte à l'intérieur de .view */
+  vertical-align: middle;
+}
+
+/* Centrage du texte dans .view */
+.work .view span {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* Assurez-vous que .view est bien centré dans la div .work */
+.work .view span, .work .view i {
+  height: 400px; /* Assure que l'élément a la hauteur correcte */
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
