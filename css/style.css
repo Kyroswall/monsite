@@ -715,6 +715,45 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
     opacity: 1;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work .view {
+  opacity: 0;
+}
+
+.work:hover .view, .work:focus .view {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .work .view span, .work .view i, .product .view span, .product .view i {
   height: 400px;
   display: table-cell;
