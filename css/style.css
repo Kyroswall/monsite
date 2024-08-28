@@ -710,7 +710,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 768px) {
   .work .view, .product .view {
     opacity: 1;
   }
