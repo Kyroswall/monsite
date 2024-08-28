@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 0 50px 0;
   margin: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-main-nav ul {
     padding: 20px 0 0 0;
   }
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
   padding: 10px 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-main-nav ul li a {
     font-size: 30px;
     padding: 10px 0;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-main-nav ul li {
     display: block;
   }
@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .fh5co-table {
     display: block !important;
     height: inherit !important;
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table-cell;
   vertical-align: middle;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .fh5co-table .fh5co-table-cell {
     display: block !important;
     height: inherit !important;
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   padding: 3em 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   header {
     padding: 2em 0;
   }
@@ -557,7 +557,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   cursor: pointer;
   margin-top: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .fh5co-nav-toggle {
     display: block;
     top: 0px;
@@ -606,7 +606,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   bottom: 0;
   z-index: 1000;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-hero .flexslider .flex-control-nav {
     bottom: -15em;
   }
@@ -636,7 +636,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   height: 700px;
   z-index: 9;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-hero .flexslider .slider-text {
     text-align: center;
   }
@@ -651,7 +651,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   font-weight: 400;
   color: #fff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 40px;
   }
@@ -685,7 +685,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   font-weight: 300;
   line-height: 1.5;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .intro-heading {
     font-size: 30px;
   }
@@ -816,7 +816,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   font-size: 40px;
   color: #000;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .services {
     margin-bottom: 5em;
   }
@@ -953,7 +953,7 @@ input[type="text"] {
   width: 50%;
   float: left;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   #footer .float {
     width: 100%;
   }
